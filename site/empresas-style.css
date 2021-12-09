@@ -20,3 +20,9 @@ article.empr > img {
 article.empr > img, h3 {
     display: inline-block;
 }
+
+article.empr:hover {
+    background-color: rgb(37, 36, 36);
+    color: hotpink;
+
+}
