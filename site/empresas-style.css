@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+article.empr {
+    background-color: grey;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+    margin: 10px;
+    padding: 5px;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    color: indigo;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+article.empr > img {
+    height: 50px;
+}
+article.empr > img, h3 {
+    display: inline-block;
+}
