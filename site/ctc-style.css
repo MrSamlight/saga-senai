@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+section {
+    margin: auto;
+}
+
+article.ctc {
+    background-color: grey;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+    margin: 20px 37px;
+    padding: 10px;
+    width: 200px;
+    height: 270px;
+    display: inline-block;
+    color: indigo;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+article.ctc:hover {
+    background-color: rgb(37, 36, 36);
+    color: hotpink;
+
+}
+
+
+article.ctc > img {
+    width: 200px;
+}
+
+article.CTC > h3 {
+    text-align: center;
+}
