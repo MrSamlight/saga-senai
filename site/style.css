@@ -80,6 +80,7 @@ h2 {
     font-size: 1.8em;
     text-indent: 6px;
     color: white;
+    border-radius: 10px;
 }
 
 p {
