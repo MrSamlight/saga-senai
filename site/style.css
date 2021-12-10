@@ -10,9 +10,13 @@
 
 
 
+
 body {
     background-image: linear-gradient(to bottom, rgb(159, 198, 243), rgb(45, 45, 129));
     font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* CABEÇALHO */
@@ -72,7 +76,7 @@ main {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0px 0px 10px #02021870;
-    height: 1000px;
+    min-height: 500px;
 }
 
 h2 {
