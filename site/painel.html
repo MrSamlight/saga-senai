@@ -7,6 +7,28 @@
     , initial-scale=1.0">
     <title>Ligação Fundada</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        section {
+            position: relative;
+            padding: 40px;
+        }
+        article {
+            width: 200px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+            background-color: gray;
+            display: inline-block;
+            margin: 10px 30px;
+            transition-duration: 0.5s;
+            color: rgba(0, 17, 255, 0.63);
+        }
+        article:hover {
+            background-color: rgb(37, 35, 35);
+            color: greenyellow;
+            width: 210px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,6 +45,36 @@
 
     <main>
         <h2>Meu Painel</h2>
+
+        <P>Aqui você poderá ver os tanto os seus projetos quanto aqueles que você decidiu acompanhar o processo.</P>
+
+        <h3>Meus projetos</h3>
+
+        <section>
+            <a href="ctc-user/torre-starkm.html">
+            <article>
+                <img src="imagens/torre-stark.jpg" alt="">
+                <h4>Torre Stark</h4>
+                <p></p>
+            </article>
+            </a>
+        </section>
+        
+
+        <h3>Projetos que estou acompanhando</h3>
+        <section>
+            <article>
+                <img src="imagens/itaipu.jpg" alt="">
+                <h4>Hidrelétrica Itaipú</h4>
+                <p></p>
+            </article>
+            <article>
+                <img src="imagens/porto-santos.jpg" alt="">
+                <h4>Porto de Santos</h4>
+                <p></p>
+            </article>
+            
+        </section>
     </main>
     
 </body>
