@@ -9,15 +9,31 @@
     <link rel="stylesheet" href="../style.css">
     <style>
         main {
-            background-image: url(../imagens/tstark2.jpg);
             
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
         }
-
+        h2 {
+            margin-bottom: 30px;
+        }
         h3 {
             margin: 10px;
+        }
+        section#inicio {
+            padding: 5px;
+            position: relative;
+            height: 35%;
+
+        }
+        div#dados {
+            margin-top: 10px;
+        }
+        img {
+            max-width: 250px;
+            min-width: 20px;
+            margin-left: 50px;
+        }
+        
+        div#envol {
+            display: inline-block;
         }
     </style>
 </head>
@@ -36,14 +52,30 @@
 
     <main>
         <h2>Torre Stark</h2>
+
+        <section id="inicio">
+        <div id="envol">
         <h3>Envolvidos na Construção        </h3>
         <p> <strong> Construtora:</strong> ############                    <a href="#">Contato</a></p>
         <p> <strong> Arquiteto(a)(s):</strong> #############                <a href="#">Contato</a></p>
         <p> <strong>Engeheiro(a) chefe: </strong> ###########      <a href="#">Contato</a></p>
+        <p> <strong> Quantidade de operários:</strong> 127</p>
+        </div>
+        <img src="../imagens/tstark2.jpg" alt="">
+        
+        </section>
 
+        <div id="dados">
         <h3>Dados da construção</h3>
-        <p>Data de Início: ##/##/####</p>
-        <p>Data prevista de término: ##/####</p>
+        <p><strong>Data de Início:</strong> ##/##/####</p>
+        <p><strong>Data prevista de término:</strong> ##/####</p>
+        <p><strong>Fase:</strong> fundamentos</p>
+        <p><strong>Altura alcançada:</strong> 180m</p>
+        <p><strong>Tipo:</strong> Edifício moderno</p>
+        <p><a href="#">Desenho Arquitetônico</a></p>
+        <p><strong>Statos no site:</strong> Público</p>
+        <p><strong>Endereço:</strong> #########  ### - ####### - ## <a href="#">Mapa</a></p>
+        </div>
         
         
     </main>
